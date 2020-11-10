@@ -1,0 +1,9 @@
+<div class="header">
+  <h5><%= link_to 'Zeus News', articles_path %></h5>
+  <h5><%=  link_to 'New Article', new_article_path%></h5>
+</div>
+
+<div class="container">
+  <%= render "form", article: @article %>
+  <p><%= link_to 'Back', articles_path %></p>
+</div>

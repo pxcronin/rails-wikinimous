@@ -1,0 +1,11 @@
+<div class="header">
+  <h5><%= link_to 'Zeus News', articles_path %></h5>
+  <h5><%=  link_to 'New Article', new_article_path%></h5>
+</div>
+
+<div class="container">
+  <h1><%= @article.title %>
+  <%= link_to '✏', edit_article_path %>
+  <%= link_to '♻', article_path(@article), method: :delete, date: { confirm: "Are you sure?"} %></h1>
+  <p><%= @article.content %></p>
+</div>

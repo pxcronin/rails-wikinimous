@@ -1,0 +1,24 @@
+@import "bootstrap/scss/bootstrap";
+
+.container {
+  width: 900px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  color: #777B7F;
+  padding: 8px;
+}
+
+.header h5 {
+  padding: 0 16px;
+  font-weight: initial;
+}
+
+h2 {
+  color: #337ab7;
+}
